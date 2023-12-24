@@ -1,0 +1,26 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.text-color{
+    color: white;
+}
+/* Banner Porperties */
+.banner{
+    background-image: url(images/IMG_0561.png);
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.css-width{
+    width: 20%;
+}
+.img-border{
+    border-radius: 10px;
+}
+.skills-text-color{
+    color: #0d98ba;
+    font-weight: 600;
+}
+.skills-padding{
+    padding: 40px 0;
+}
