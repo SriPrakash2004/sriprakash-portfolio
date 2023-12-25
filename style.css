@@ -6,8 +6,8 @@ body{
 }
 /* Banner Porperties */
 .banner{
-    background-image: url(images/IMG_0561.png);
-    padding: 250px;
+    background-image: url(./images/IMG_0561.png);
+    padding: 250px 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
