@@ -24,3 +24,14 @@ body{
 .skills-padding{
     padding: 40px 0;
 }
+.project-banner{
+    background-image: url(./images/project.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px 0;
+}
+.social-icons{
+    width: 38px;
+    height: 38px;
+    margin-left: 20px;
+}
