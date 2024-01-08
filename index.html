@@ -143,24 +143,24 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <form>
+          <form name="myform1" action="./php/contact.php" method="post">
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label text-color">Name</label>
-              <input type="text" class="form-control name" id="exampleInputText1">
+              <input type="text" class="form-control" name="uname" id="exampleInputText1" required="">
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label text-color">Mobile</label>
-              <input type="number" class="form-control mobile" id="exampleInputNumber1">
+              <input type="number" class="form-control" name="mobile" id="exampleInputNumber1" required="">
             </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label text-color">E-mail</label>
-              <input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" required="">
             </div>
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label text-color">Example textarea</label>
-              <textarea class="form-control text" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" name="text1" id="exampleFormControlTextarea1" rows="3" required=""></textarea>
             </div>
-            <button type="button" onclick="sendwhatsapp()" class="btn btn-success" id="message">Send Via Whatsapp</button>
+            <input type="submit" class="btn btn-success" onclick="submit()" name="submit"/>
           </form>
         </div>
       </div>
