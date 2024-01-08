@@ -7,7 +7,7 @@ $text1 = $_POST['text1'];
 
 if(!empty($uname) || !empty($mobile) || !empty($email) || !empty($text))
 {
-    $host = "localhost";
+    $host = "http://localhost/phpmyadmin/index.php?route=/sql&db=portfolio&table=contact";
     $dbusername = "root";
     $dbpassword = "";
     $dbname = "portfolio";
