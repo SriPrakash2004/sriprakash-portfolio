@@ -4,9 +4,12 @@ body{
 .text-color{
     color: white;
 }
+.nav-bar-blur{
+    background-color: rgba(20, 20, 20, 0.2);
+}
 /* Banner Porperties */
 .banner{
-    background-image: url(./images/IMG_0561.png);
+    background-image: url(./images/por-banner.png);
     padding: 250px 0;
     background-repeat: no-repeat;
     background-size: cover;
