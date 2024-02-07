@@ -1,15 +1,15 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'League Spartan', sans-serif;
 }
 .text-color{
     color: white;
 }
 .nav-bar-blur{
-    background-color: rgba(20, 20, 20, 0.2);
+    backdrop-filter: blur(30px);
 }
 /* Banner Porperties */
 .banner{
-    background-image: url(./images/por-banner.png);
+    background-image: url(./images/portfolio.jpg);
     padding: 250px 0;
     background-repeat: no-repeat;
     background-size: cover;
