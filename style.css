@@ -7,7 +7,7 @@ body {
 }
 
 .nav-bar-blur {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
 }
 
 .nav-hover:hover {
@@ -75,7 +75,7 @@ body {
 .bar span{
     height: 10px;
     float: left;
-    background: linear-gradient(135deg, rgb(186, 13, 186)0%,rgba(29,103,103,1)100%);
+    background: linear-gradient(135deg, rgb(236, 0, 140,1)0%,rgba(252,103,103,1)100%);
 
 }
 .html{
